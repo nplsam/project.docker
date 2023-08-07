@@ -2,7 +2,7 @@ version: '3'
 services:
   client:
     image: node:16
-    container_name: project_client
+    container_name: project_client1
     ports: 
       - 8080:8080
     volumes:
@@ -17,7 +17,7 @@ services:
 
   api: 
     image: node:18
-    container_name: project_server
+    container_name: project_server1
     ports: 
       - 3000:3000
     volumes:
